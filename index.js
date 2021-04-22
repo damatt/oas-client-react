@@ -282,7 +282,7 @@ var executeCreateClientBase_Helper = function(method, definition, imports) {
 		casesArray.join('') +
 		'\t\t\t\t}\n' +
 		'\n' +
-		'\t\t\t\t// If we are here, we basically have a response statusCode that we were npt expecting or are not set to handle\n' +
+		'\t\t\t\t// If we are here, we basically have a response statusCode that we were not expecting or are not set to handle\n' +
 		'\t\t\t\t// Go ahead and fall back to the catch-all\n' +
 		'\t\t\t\tthis.handleUnhandledResponse(response, responseHandler);\n' +
 		'\t\t\t})\n' +
